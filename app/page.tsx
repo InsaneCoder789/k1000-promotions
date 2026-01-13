@@ -7,15 +7,7 @@ import { getFirestore, collection, addDoc, serverTimestamp } from 'firebase/fire
 import { CheckCircle, Activity, Clock } from 'lucide-react';
 
 // Firebase Configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyA-yCgohYY8HKBnbu9CVoAuMJflrSGayts",
-  authDomain: "recruitment-8a86b.firebaseapp.com",
-  projectId: "recruitment-8a86b",
-  storageBucket: "recruitment-8a86b.firebasestorage.app",
-  messagingSenderId: "111513716920",
-  appId: "1:111513716920:web:31684fba9ddbd64d8f0c4d",
-  measurementId: "G-M417CYDE06"
-};
+const firebaseConfig = {}
 
 const app = getApps().length > 0 ? getApp() : initializeApp(firebaseConfig);
 const auth = getAuth(app);
