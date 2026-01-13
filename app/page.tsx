@@ -128,7 +128,7 @@ export default function RecruitmentPortal() {
               </p>
               <div className="flex items-center justify-center gap-2 text-zinc-600 text-[10px] font-black uppercase tracking-[0.2em] pt-6 border-t border-white/5">
                 <Clock size={14} />
-                Status: Awaiting Verification
+                Status: Successful 
               </div>
             </div>
           </div>
